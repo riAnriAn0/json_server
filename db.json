@@ -1,0 +1,85 @@
+{
+  "usuarios" : [
+      {
+        "id" : 1,
+        "nome" : "André Ribeiro",
+        "login" : "sala1",
+        "senha" : "gvandre2024",
+        "foto" : "https://i.ibb.co/37HTyVv/GV-ANDR-REIBEIRO.jpg"
+      },
+          {
+        "id" : 2,
+        "nome" : "Janylza Coelho",
+        "login" : "sala2",
+        "senha" : "gvjanylza2024",
+        "foto" : "https://i.ibb.co/Y3vFNVR/GV-JANYLZA.png"
+      },
+          {
+        "id" : 3,
+        "nome" : "Renato Farias",
+        "login" : "sala3",
+        "senha" : "gvrenato2024",
+        "foto" : "https://i.ibb.co/sbvSxMj/renato.jpg"
+      },
+      {
+        "id" : 4,
+        "nome" : "Felipe",
+        "login" : "ansmkt",
+        "senha" : "ansfelipe2024",
+        "foto" : "https://i.ibb.co/Y3vFNVR/GV-JANYLZA.png"
+      }
+  ],
+
+  "estoque" : [
+        {
+            "id" : 9110802,
+            "produto" : "Jogo de mesa brahma chopp de plástico",
+            "quantidade" : 100,
+            "valor" : "350,00",
+            "pdv" : [
+                "Vizinhança", "Bar" 
+            ],
+            "foto" : "https://i.ibb.co/37HTyVv/GV-ANDR-REIBEIRO.jpg"
+        },
+        {
+            "id" : 6006989,
+            "produto" : "Freezer horizontal grande ambev",
+            "quantidade" : 6,
+            "pdv" : [
+                "Vizinhaça", "Bar", "Eventos" 
+            ],
+            "valor" : "1.500,00",
+            "foto" : "https://i.ibb.co/37HTyVv/GV-ANDR-REIBEIRO.jpg"
+        },
+        {
+            "id" : 814560,
+            "produto" : "Cervejela brahma duplo malte 600ml",
+            "quantidade" : 4500,
+            "valor" : "7,50",
+            "pdv" : [
+                "Vizinhança", "VIP", "Bar" 
+            ],
+            "foto" : "https://i.ibb.co/Y3vFNVR/GV-JANYLZA.png"
+        },
+        {
+            "id" : 97962644,
+            "produto" : "Jogo de mesa de madeira Spaten",
+            "quantidade" : 432,
+            "valor" : "450.70",
+            "pdv" : [
+                "VIP", "Mercado" 
+            ],
+            "foto" : "https://i.ibb.co/Y3vFNVR/GV-JANYLZA.png"
+        }
+  ],
+  
+  "users": [
+    {
+      "id": 1,
+      "name": "Felipe",
+      "email": "silvahlipe@gmail.com",
+      "senha": "1503",
+      "avatar": "/sanji.jpg"
+    }
+  ]
+}

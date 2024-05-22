@@ -243,7 +243,7 @@
         {
             "id" : 9,
             "nome" : "Mangá My Hero Academy vol. 20 ao 23",
-            "descricao":"My Hero Academia se passa em um mundo onde quase toda a população possui superpoderes chamados "Quirks". A história segue Izuku Midoriya, um jovem sem poderes que herda o Quirk do maior herói, All Might, e se matricula na U.A. High School para se tornar um herói profissional.",
+            "descricao":"My Hero Academia se passa em um mundo onde quase toda a população possui superpoderes chamados Quirks. A história segue Izuku Midoriya, um jovem sem poderes que herda o Quirk do maior herói, All Might, e se matricula na U.A. High School para se tornar um herói profissional.",
             "categoria" : "My Hero Academy",
             "valor_antigo" : 20.90,
             "valor_atual" : 18.90,
@@ -424,7 +424,7 @@
         {
             "id" : 16,
             "nome" : "Mangá Blue Look vol. 1 ao 4",
-            "descricao":"Blue Lock gira em torno de um projeto de treinamento radical no futebol japonês, onde jovens atacantes competem para se tornar o melhor "egoísta" no esporte. Yoichi Isagi, um dos participantes, busca superar seus limites e alcançar a grandeza no futebol.",
+            "descricao":"Blue Lock gira em torno de um projeto de treinamento radical no futebol japonês, onde jovens atacantes competem para se tornar o melhor egoísta no esporte. Yoichi Isagi, um dos participantes, busca superar seus limites e alcançar a grandeza no futebol.",
             "categoria" : "Blue Look",
             "valor_antigo" : 15,
             "valor_atual" : 12.90,

@@ -3,6 +3,7 @@
         {
             "id" : 1,
             "nome" : "Mangá Attack on titan vol. 1 ao 5",
+            "descricao":"Attack on Titan segue a luta da humanidade contra os Titãs, criaturas gigantescas que devoram pessoas. A história acompanha Eren Yeager, sua irmã adotiva Mikasa e seu amigo Armin, enquanto eles se juntam à Tropa de Exploração para combater os Titãs e descobrir os segredos por trás de sua existência",
             "categoria" : "Attack on Titan",
             "valor_antigo" : 20,
             "valor_atual" : 15,
@@ -37,6 +38,7 @@
         {
             "id" : 2,
             "nome" : "Mangá Demon Slayer vol. 8 ao 14",
+            "descricao":"Demon Slayer narra a jornada de Tanjiro Kamado, um jovem que se torna caçador de demônios após sua família ser massacrada e sua irmã Nezuko ser transformada em demônio. Tanjiro busca uma cura para Nezuko e vingar sua família, enfrentando demônios e descobrindo os mistérios por trás deles.",
             "categoria" : "Demon Slayer",
             "valor_antigo" : 20,
             "valor_atual" : 16,
@@ -79,6 +81,7 @@
         {
             "id" : 3,
             "nome" : "Mangá Jujutsu Kaisen vol. 0 ao 4",
+            "descricao":"Jujutsu Kaisen conta a história de Yuji Itadori, um estudante que, após ingerir um dedo amaldiçoado, se torna o hospedeiro de uma poderosa maldição chamada Sukuna. Ele entra na Escola Técnica de Jujutsu para aprender a combater maldições e proteger o mundo dos espíritos malignos.",
             "categoria" : "Jujutsu Kaisen",
             "valor_antigo" : 21.90,
             "valor_atual" : 18.00,
@@ -113,6 +116,7 @@
         {
             "id" : 4,
             "nome" : "Mangá One Piece vol. 28 ao 14",
+            "descricao":"One Piece segue as aventuras de Monkey D. Luffy e sua tripulação de piratas na busca pelo tesouro lendário, o One Piece, que fará de Luffy o Rei dos Piratas. A série explora um vasto mundo de ilhas, inimigos formidáveis e mistérios intrigantes.",
             "categoria" : "One Piece",
             "valor_antigo" : 19,
             "valor_atual" : 14,
@@ -139,6 +143,7 @@
         {
             "id" : 5,
             "nome" : "Mangá Naruto Shippuden vol. 8 ao 14",
+            "descricao":"Naruto Shippuden continua a história de Naruto Uzumaki, agora adolescente, que retorna à Vila da Folha após um treinamento intensivo. Ele busca salvar seu amigo Sasuke das trevas e enfrenta a organização criminosa Akatsuki, que ameaça o mundo ninja.",
             "categoria" : "Naruto Shippuden",
             "valor_antigo" : 22,
             "valor_atual" : 18,
@@ -177,6 +182,7 @@
         {
             "id" : 6,
             "nome" : "Mangá Boruto Next Generation vol. 1",
+            "descricao":"Boruto acompanha a próxima geração de ninjas, focando em Boruto Uzumaki, filho de Naruto. Boruto luta para sair da sombra de seu pai e enfrentar novos desafios e ameaças, incluindo o misterioso clã Ōtsutsuki.",
             "categoria" : "Boruto",
             "valor_antigo" : 18.90,
             "valor_atual" : 13.90,
@@ -195,6 +201,7 @@
         {
             "id" : 7,
             "nome" : "Mangá Chainsaw Man vol. 1",
+            "descricao":"Chainsaw Man segue Denji, um jovem que se funde com seu demônio motosserra, Pochita, após ser traído e morto. Ressuscitado como um híbrido, Denji trabalha como caçador de demônios para pagar suas dívidas e buscar uma vida melhor, enfrentando inimigos terríveis e situações grotescas.",
             "categoria" : "Chainsaw Man",
             "valor_antigo" : 17.90,
             "valor_atual" : 13.90,
@@ -213,6 +220,7 @@
         {
             "id" : 8,
             "nome" : "Mangá Dragon Ball Surper vol. 1 ao 2",
+            "descricao":"Dragon Ball Super continua as aventuras de Goku e seus amigos após a derrota de Majin Boo. Goku alcança novos níveis de poder, como o Super Saiyan Blue, e enfrenta deuses, como Beerus e Zamasu, além de participar do Torneio do Poder, onde universos batalham pela sobrevivência.",
             "categoria" : "Dragon Ball Surper",
             "valor_antigo" : 19.90,
             "valor_atual" : 18.90,
@@ -235,6 +243,7 @@
         {
             "id" : 9,
             "nome" : "Mangá My Hero Academy vol. 20 ao 23",
+            "descricao":"My Hero Academia se passa em um mundo onde quase toda a população possui superpoderes chamados "Quirks". A história segue Izuku Midoriya, um jovem sem poderes que herda o Quirk do maior herói, All Might, e se matricula na U.A. High School para se tornar um herói profissional.",
             "categoria" : "My Hero Academy",
             "valor_antigo" : 20.90,
             "valor_atual" : 18.90,
@@ -265,6 +274,7 @@
         {
             "id" : 10,
             "nome" : "Mangá Surper Onze vol. 1",
+            "descricao":"Super Onze acompanha a história de Mamoru Endou, o capitão de um time de futebol escolar. Ele reúne jogadores talentosos para salvar seu clube e competir em torneios, enfrentando equipes adversárias com habilidades quase sobrenaturais.",
             "categoria" : "Surper Onze",
             "valor_antigo" : 22.90,
             "valor_atual" : 19.90,
@@ -283,6 +293,7 @@
         {
             "id" : 11,
             "nome" : "Mangá The Seven Deadly Sins vol. 3 ao 4",
+            "descricao":"The Seven Deadly Sins segue a princesa Elizabeth em sua busca pelos Sete Pecados Capitais, um grupo de cavaleiros poderosos, para salvar o reino de Liones da tirania dos Cavaleiros Sagrados. A série combina fantasia, ação e comédia enquanto os Pecados enfrentam diversas ameaças.",
             "categoria" : "The Seven Deadly Sins",
             "valor_antigo" : 12.90,
             "valor_atual" : 10.90,
@@ -305,6 +316,7 @@
         {
             "id" : 12,
             "nome" : "Mangá Naruto Clássico vol. 1 ao 2",
+            "descricao":"Naruto Clássico apresenta Naruto Uzumaki, um jovem ninja que sonha em se tornar Hokage, o líder de sua vila. Com a raposa de nove caudas selada dentro dele, Naruto enfrenta desafios, faz amigos e cresce como ninja, enfrentando inimigos poderosos e descobrindo seu potencial.",
             "categoria" : "Naruto Clássico",
             "valor_antigo" : 15,
             "valor_atual" : 14.90,
@@ -327,6 +339,7 @@
         {
             "id" : 13,
             "nome" : "Mangá Record of Ragnarok vol. 1 ao 5",
+            "descricao":"Record of Ragnarok narra a batalha entre deuses e humanos em um torneio onde a humanidade luta por sua sobrevivência. Treze guerreiros humanos enfrentam treze deuses em combates épicos para determinar o destino da humanidade.",
             "categoria" : "Record of Ragnarok",
             "valor_antigo" : 18,
             "valor_atual" : 17.90,
@@ -361,6 +374,7 @@
         {
             "id" : 14,
             "nome" : "Mangá Tokyo Revengers vol. 4 ao 6",
+            "descricao":"Tokyo Revengers segue Takemichi Hanagaki, um homem que volta no tempo para seus dias de escola para salvar sua ex-namorada Hinata de ser assassinada por uma gangue. Ele se infiltra na gangue para mudar o futuro, enfrentando perigos e formando novas alianças.",
             "categoria" : "Tokyo Revengers",
             "valor_antigo" : 13,
             "valor_atual" : 12.90,
@@ -387,6 +401,7 @@
         {
             "id" : 15,
             "nome" : "Mangá Dragon Ball Clássico vol. 167 ao 168",
+            "descricao":"Dragon Ball Clássico conta as aventuras de Goku desde sua infância. Ele parte em uma jornada para encontrar as Esferas do Dragão, enfrentando diversos inimigos e fazendo amigos enquanto descobre seu verdadeiro potencial como lutador.",
             "categoria" : "Dragon Ball Clássico",
             "valor_antigo" : 25,
             "valor_atual" : 21.90,
@@ -409,6 +424,7 @@
         {
             "id" : 16,
             "nome" : "Mangá Blue Look vol. 1 ao 4",
+            "descricao":"Blue Lock gira em torno de um projeto de treinamento radical no futebol japonês, onde jovens atacantes competem para se tornar o melhor "egoísta" no esporte. Yoichi Isagi, um dos participantes, busca superar seus limites e alcançar a grandeza no futebol.",
             "categoria" : "Blue Look",
             "valor_antigo" : 15,
             "valor_atual" : 12.90,
@@ -439,6 +455,7 @@
         {
             "id" : 17,
             "nome" : "Mangá Solo Leveling vol. 1",
+            "descricao":"Solo Leveling segue Sung Jin-Woo, um caçador fraco em um mundo onde portais conectam a Terra a dimensões cheias de monstros. Após um evento quase fatal, ele ganha a habilidade de aumentar seu poder ao completar missões, transformando-se no caçador mais forte.",
             "categoria" : "Solo Leveling",
             "valor_antigo" : 16,
             "valor_atual" : 13.90,
@@ -457,6 +474,7 @@
         {
             "id" : 18,
             "nome" : "Mangá Bleach vol. 1 ao 2",
+            "descricao":"Bleach segue Ichigo Kurosaki, um adolescente que se torna um Ceifador de Almas (Shinigami) após encontrar Rukia Kuchiki. Ele deve proteger o mundo dos espíritos malignos chamados Hollows e enfrentar ameaças no mundo espiritual, descobrindo segredos sobre seu próprio passado.",
             "categoria" : "Bleach",
             "valor_antigo" : 23,
             "valor_atual" : 16.00,
@@ -479,6 +497,7 @@
         {
             "id" : 19,
             "nome" : "Mangá The Promisse Neverland vol. 2 ao 5",
+            "descricao":"The Promised Neverland narra a história de crianças em um orfanato idílico que descobrem a terrível verdade: são criadas como gado para alimentar demônios. Emma, Norman e Ray planejam uma fuga para salvar todas as crianças e encontrar um mundo seguro além dos muros do orfanato",
             "categoria" : "The Promisse Neverland",
             "valor_antigo" : 19,
             "valor_atual" : 18.90,
@@ -509,6 +528,7 @@
         {
             "id" : 20,
             "nome" : "Mangá Tokyo Ghoul  vol. 1 ao 2",
+            "descricao":"Tokyo Ghoul segue Kaneki Ken, um estudante que se torna meio-ghoul após um encontro quase fatal. Ele deve navegar pelo mundo dos ghouls, seres que se alimentam de carne humana, enquanto luta para manter sua humanidade e proteger aqueles que ama.",
             "categoria" : "Tokyo Ghoul",
             "valor_antigo" : 15,
             "valor_atual" : 12.00,

@@ -1,216 +1,320 @@
-{
-  "papelaria": [
-    {
-      "id": 1,
-      "nome": "Caderno Universitário 200 folhas",
-      "preco": 25.9,
-      "quantidade": 50
-    },
-    { "id": 2, "nome": "Lápis Preto HB", "preco": 1.5, "quantidade": 200 },
-    {
-      "id": 3,
-      "nome": "Caneta Azul Esferográfica",
-      "preco": 2.0,
-      "quantidade": 150
-    },
-    { "id": 4, "nome": "Borracha Branca", "preco": 3.5, "quantidade": 100 },
-    {
-      "id": 5,
-      "nome": "Apontador com Depósito",
-      "preco": 4.9,
-      "quantidade": 80
-    },
-    { "id": 6, "nome": "Régua 30 cm", "preco": 6.0, "quantidade": 75 },
-    { "id": 7, "nome": "Estojo Simples", "preco": 12.0, "quantidade": 60 },
-    { "id": 8, "nome": "Tesoura Escolar", "preco": 7.5, "quantidade": 90 },
-    { "id": 9, "nome": "Cola Branca 90g", "preco": 5.9, "quantidade": 110 },
-    {
-      "id": 10,
-      "nome": "Papel Sulfite A4 500 folhas",
-      "preco": 35.0,
-      "quantidade": 40
-    },
-    { "id": 11, "nome": "Clips de Metal", "preco": 3.0, "quantidade": 120 },
-    { "id": 12, "nome": "Grampeador Pequeno", "preco": 19.9, "quantidade": 30 },
-    {
-      "id": 13,
-      "nome": "Grampo para Grampeador",
-      "preco": 5.5,
-      "quantidade": 200
-    },
-    {
-      "id": 14,
-      "nome": "Papel Cartão Colorido",
-      "preco": 8.5,
-      "quantidade": 50
-    },
-    {
-      "id": 15,
-      "nome": "Marcador Permanente Preto",
-      "preco": 6.9,
-      "quantidade": 70
-    },
-    { "id": 16, "nome": "Corretivo em Fita", "preco": 9.9, "quantidade": 85 },
-    {
-      "id": 17,
-      "nome": "Pasta Plástica Transparente",
-      "preco": 4.5,
-      "quantidade": 90
-    },
-    {
-      "id": 18,
-      "nome": "Fita Adesiva Transparente",
-      "preco": 3.8,
-      "quantidade": 100
-    },
-    { "id": 19, "nome": "Pincel Atômico Azul", "preco": 7.2, "quantidade": 60 },
-    {
-      "id": 20,
-      "nome": "Bloco de Notas Adesivas",
-      "preco": 5.0,
-      "quantidade": 110
-    },
-    { "id": 21, "nome": "Caderno de Desenho", "preco": 18.0, "quantidade": 40 },
-    {
-      "id": 22,
-      "nome": "Caneta Marca Texto Amarela",
-      "preco": 4.9,
-      "quantidade": 70
-    },
-    { "id": 23, "nome": "Compasso Escolar", "preco": 15.5, "quantidade": 35 },
-    {
-      "id": 24,
-      "nome": "Papel Crepom Sortido",
-      "preco": 2.9,
-      "quantidade": 130
-    },
-    { "id": 25, "nome": "Durex Colorido", "preco": 4.2, "quantidade": 75 },
-    { "id": 26, "nome": "Envelope Branco A4", "preco": 1.8, "quantidade": 250 },
-    {
-      "id": 27,
-      "nome": "Porta Lápis de Plástico",
-      "preco": 9.0,
-      "quantidade": 55
-    },
-    { "id": 28, "nome": "Pincel para Pintura", "preco": 6.5, "quantidade": 80 },
-    {
-      "id": 29,
-      "nome": "Tinta Guache 6 cores",
-      "preco": 14.9,
-      "quantidade": 45
-    },
-    {
-      "id": 30,
-      "nome": "Caderno Espiral Pequeno",
-      "preco": 9.9,
-      "quantidade": 60
+{ 
+    "usuario":{
+        "nome":"admin",
+        "senha":"admin123",
+        "email":"admin@example.com",
+        "telefone":"(11) 98765-4321",
+
+        "produtos":[
+            {        
+                "pizzas":{
+                    "info":{
+                        "P":{
+                            "tamanho":"P",
+                            "fatias":4,
+                            "sabores":1,
+                            "valor":30
+                        },
+                        "M":{
+                            "tamanho":"M",
+                            "fatias":6,
+                            "sabores":2,
+                            "valor":38
+                        },
+                        "G":{
+                            "tamanho":"G",
+                            "fatias":8,
+                            "sabores":2,
+                            "valor":43
+                        },
+                        "GG":{
+                            "tamanho":"GG",
+                            "fatias":12,
+                            "sabores":3,
+                            "valor":60
+                        }
+                    },
+                    "sabores":[
+                        {
+                            "nome": "ALEXANDRE COSTA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Calabresa",
+                                "Tomate",
+                                "Manjericão",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "ANTENOR VIANA",
+                            "ingredientes": [
+                                "Muçarela",
+                                "Calabresa",
+                                "Cebola",
+                                "Milho",
+                                "Azeitona",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "BALACUBANA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Presunto",
+                                "Frango",
+                                "Bacon",
+                                "Cebola",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "BANANA",
+                            "ingredientes": [
+                                "Muçarela",
+                                "Banana",
+                                "Leite condensado",
+                                "Canela"
+                            ]
+                        },
+                        {
+                            "nome": "CALABRESA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Calabresa",
+                                "Cebola",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "COPACABANA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Calabresa",
+                                "Cebola",
+                                "Ovo",
+                                "Queijo",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "FRANGO COM CATUPIRY",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Frango",
+                                "Catupiry"
+                            ]
+                        },
+                        {
+                            "nome": "MARGARITA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Tomate",
+                                "Manjericão",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "MEXICANA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Calabresa",
+                                "Presunto",
+                                "Bacon",
+                                "Pimenta calabresa",
+                                "Catupiry"
+                            ]
+                        },
+                        {
+                            "nome": "PONTES",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Carne de sol",
+                                "Cebola"
+                            ]
+                        },
+                        {
+                            "nome": "PORTUGUESA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Presunto",
+                                "Tomate",
+                                "Calabresa",
+                                "Milho",
+                                "Ovo",
+                                "Pimentão",
+                                "Cebola",
+                                "Azeitona"
+                            ]
+                        },
+                        {
+                            "nome": "QUATRO QUEIJOS",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Queijo",
+                                "Parmesão",
+                                "Orégano",
+                                "Catupiry"
+                            ]
+                        },
+                        {
+                            "nome": "ROMEU E JULIETA",
+                            "ingredientes": [
+                                "Muçarela",
+                                "Goiabada",
+                                "Creme de leite"
+                            ]
+                        },
+                        {
+                            "nome": "SANTOS DUMONT",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Presunto",
+                                "Frango",
+                                "Milho"
+                            ]
+                        },
+                        {
+                            "nome": "STROGONOFF",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Strogonoff de frango",
+                                "Batata palha"
+                            ]
+                        },
+                        {
+                            "nome": "VENEZA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Presunto",
+                                "Frango",
+                                "Calabresa",
+                                "Milho",
+                                "Ovo",
+                                "Pimentão",
+                                "Cebola",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "VILA LOBÃO",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Tomate",
+                                "Queijo parmesão"
+                            ]
+                        },
+                        {
+                            "nome": "VILLAGE",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Bacon",
+                                "Cebola",
+                                "Orégano"
+                            ]
+                        },
+                        {
+                            "nome": "VOLTA REDONDA",
+                            "ingredientes": [
+                                "Molho de tomate",
+                                "Muçarela",
+                                "Calabresa",
+                                "Frango",
+                                "Azeitona",
+                                "Orégano"
+                            ]
+                        }
+                    ]
+                },
+                "hamburgueres": [
+                    {
+                    "nome": "PONTES",
+                    "preco": "R$14,99",
+                    "ingredientes": ["Carne artesanal", "Cheddar", "Alface", "Tomate", "Cebola frita", "Bacon crocante", "Molho com carne seca"]
+                    },
+                    {
+                    "nome": "BRASILEIRO",
+                    "preco": "R$12,99",
+                    "ingredientes": ["Carne artesanal", "Queijo muçarela", "Alface", "Tomate", "Presunto", "Bacon crocante", "Molho barbecue"]
+                    },
+                    {
+                    "nome": "MEXICANO",
+                    "preco": "R$14,99",
+                    "ingredientes": ["Carne artesanal", "Catupiry", "Calabresa", "Presunto", "Alface", "Tomate", "Bacon crocante", "Pimenta calabresa", "Molho rose"]
+                    },
+                    {
+                    "nome": "EXCLUSIVO",
+                    "preco": "R$15,99",
+                    "ingredientes": ["Carne artesanal", "Frango desfiado", "Cebola frita", "Alface", "Tomate", "Ovo", "Molho rose"]
+                    },
+                    {
+                    "nome": "MEGA SALADA",
+                    "preco": "R$12,99",
+                    "ingredientes": ["Carne artesanal", "Ovo", "Alface", "Tomate", "Cebola frita", "Queijo", "Presunto", "Molho barbecue"]
+                    },
+                    {
+                    "nome": "NORDESTINO",
+                    "preco": "R$15,99",
+                    "ingredientes": ["Carne artesanal", "Carne seca", "Alface", "Tomate", "Abacaxi", "Bacon crocante", "Molho barbecue"]
+                    },
+                    {
+                    "nome": "MEGA X-TUDO",
+                    "preco": "R$19,99",
+                    "ingredientes": ["Carne artesanal", "Cheddar", "Alface", "Tomate", "Cebola frita", "Bacon crocante", "Presunto", "Queijo", "Ovo", "Calabresa", "Molho com carne seca"]
+                    }
+                ],
+                "porcoes": [
+                    {"nome": "Batata Simples", "preco": "R$20"},
+                    {"nome": "Batata Queijo e Bacon", "preco": "R$22"}
+                ],
+                "bebidas": [
+                    {"nome": "Refrigerante 1", "preco": "R$8"},
+                    {"nome": "Refrigerante 2", "preco": "R$15"},
+                    {"nome": "Latinha", "preco": "R$5"},
+                    {"nome": "Água", "preco": "R$3"},
+                    {"nome": "Água com gás", "preco": "R$4"}
+                ]
+            }
+        ],
+        "clientes":[
+            {
+                "nome":"Cliente 1",
+                "telefone":"(11) 1234-5678",
+                "endereco":{
+                    "rua":"Rua A",
+                    "bairro":"Bairro A",
+                    "num":"123"
+                },
+                "pedidos":[]
+            }
+        ],
+        "pedidos":[
+            {
+                "cliente":"Cliente 1",
+                "data":"2023-10-01",
+                "hora":"19:00",
+                "itens":[
+                    {"produto":"PONTES", "quantidade":1, "tipo":"pizza"},
+                    {"produto":"Batata Queijo e Bacon", "quantidade":2, "tipo":"porcao"},
+                    {"produto":"Refrigerante 1", "quantidade":1, "tipo":"bebida"}
+                ],
+                "total":"R$64,99"
+            }
+        ]
+
     }
-  ],
-  "livraria": [
-    {
-      "id": 31,
-      "nome": "Livro: O Pequeno Príncipe",
-      "preco": 29.9,
-      "quantidade": 20
-    },
-    {
-      "id": 32,
-      "nome": "Livro: Dom Casmurro",
-      "preco": 35.0,
-      "quantidade": 15
-    },
-    {
-      "id": 33,
-      "nome": "Livro: 1984 - George Orwell",
-      "preco": 42.0,
-      "quantidade": 25
-    },
-    { "id": 34, "nome": "Livro: O Hobbit", "preco": 49.9, "quantidade": 18 },
-    {
-      "id": 35,
-      "nome": "Livro: Harry Potter e a Pedra Filosofal",
-      "preco": 59.9,
-      "quantidade": 30
-    },
-    {
-      "id": 36,
-      "nome": "Livro: A Revolução dos Bichos",
-      "preco": 28.0,
-      "quantidade": 22
-    },
-    {
-      "id": 37,
-      "nome": "Livro: O Código Da Vinci",
-      "preco": 55.0,
-      "quantidade": 17
-    },
-    {
-      "id": 38,
-      "nome": "Livro: A Menina que Roubava Livros",
-      "preco": 38.5,
-      "quantidade": 19
-    },
-    {
-      "id": 39,
-      "nome": "Livro: Senhor dos Anéis - A Sociedade do Anel",
-      "preco": 65.0,
-      "quantidade": 10
-    },
-    {
-      "id": 40,
-      "nome": "Livro: Percy Jackson e o Ladrão de Raios",
-      "preco": 45.0,
-      "quantidade": 25
-    },
-    {
-      "id": 41,
-      "nome": "Livro: O Morro dos Ventos Uivantes",
-      "preco": 33.9,
-      "quantidade": 18
-    },
-    { "id": 42, "nome": "Livro: Moby Dick", "preco": 48.0, "quantidade": 12 },
-    {
-      "id": 43,
-      "nome": "Livro: Crime e Castigo",
-      "preco": 55.9,
-      "quantidade": 20
-    },
-    {
-      "id": 44,
-      "nome": "Livro: As Crônicas de Nárnia",
-      "preco": 68.0,
-      "quantidade": 16
-    },
-    {
-      "id": 45,
-      "nome": "Livro: O Alquimista",
-      "preco": 39.5,
-      "quantidade": 22
-    },
-    {
-      "id": 46,
-      "nome": "Livro: Orgulho e Preconceito",
-      "preco": 36.0,
-      "quantidade": 25
-    },
-    {
-      "id": 47,
-      "nome": "Livro: Cem Anos de Solidão",
-      "preco": 49.0,
-      "quantidade": 14
-    },
-    {
-      "id": 48,
-      "nome": "Livro: O Lobo da Estepe",
-      "preco": 41.9,
-      "quantidade": 19
-    },
-    { "id": 49, "nome": "Livro: O Iluminado", "preco": 59.0, "quantidade": 13 },
-    {
-      "id": 50,
-      "nome": "Livro: O Nome do Vento",
-      "preco": 52.0,
-      "quantidade": 18
-    }
-  ]
 }
